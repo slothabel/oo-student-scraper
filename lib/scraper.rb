@@ -8,8 +8,6 @@ class Scraper
    scraped_page = {}
    names = doc.css("h4.student-name").text
 
-   
-   #all locations = student-name h4 
  binding.pry
   end
 
